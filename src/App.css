@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+}
+
+.body_container {
+  background-color: blue;
+  flex: 1;
+}
+
+.sidebar_container {
+  background-color: red;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
