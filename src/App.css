@@ -3,12 +3,12 @@
 }
 
 .body_container {
-  background-color: blue;
+  /* background-color: blue; */
   flex: 1;
 }
 
 .sidebar_container {
-  background-color: red;
+  /* background-color: red; */
   height: 100vh;
   position: sticky;
   top: 0;
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* padding: 15px;
   margin: 10px; */
 }
@@ -30,7 +30,11 @@
   align-items: center;
   padding: 15px;
   margin: 10px;
-  background-color: yellow;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .lines_icon {
