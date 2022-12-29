@@ -1,14 +1,12 @@
 import React from "react";
-import DashboardRoundedIcon from "@mui/icons-material/DashboardRounded";
+
 import "../components/ItemSidebar.css";
 
-const ItemSidebar = () => {
+const ItemSidebar = (props) => {
   return (
     <div className="item">
-      <div className="icon">
-        <DashboardRoundedIcon />
-      </div>
-      <span>Dashbord</span>
+      <div className="icon">{props.icon}</div>
+      <span> {props.name} </span>
     </div>
   );
 };
