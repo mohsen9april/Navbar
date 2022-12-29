@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  background-color: thistle;
 }
 
 .body_container {
@@ -42,6 +43,13 @@
   align-self: flex-end;
   border-radius: 5px;
 }
+
+/* .lines_icon :hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blure(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+} */
 
 .profile {
   display: flex;

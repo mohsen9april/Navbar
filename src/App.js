@@ -8,6 +8,7 @@ import AssignmentTurnedInRoundedIcon from "@mui/icons-material/AssignmentTurnedI
 import AttachMoneyRoundedIcon from "@mui/icons-material/AttachMoneyRounded";
 import ColorLensRoundedIcon from "@mui/icons-material/ColorLensRounded";
 import SettingsRemoteRoundedIcon from "@mui/icons-material/SettingsRemoteRounded";
+import { motion } from "framer-motion";
 
 function App() {
   return (
@@ -15,9 +16,24 @@ function App() {
       <div className="sidebar_container">
         <div className="sidebar">
           {/* lines_icon */}
-          <div className="lines_icon">
+          <motion.div
+            whileHover={{
+              scale: 1.2,
+              rotate: 180,
+              backgroundColor: "rgba(255, 255, 255, 0.7)",
+              backdropFilter: "blur(4.5px)",
+              WebkitBackdropFilter: "blur(4.5px)",
+              border: "1px solid rgba( 255, 255, 255, 0.7 )",
+              transition: {
+                delay: 0.1,
+                duration: 0.25,
+              },
+            }}
+            className="lines_icon"
+          >
             <TocRoundedIcon />
-          </div>
+          </motion.div>
+
           {/* profile */}
           <div className="profile">
             <img
