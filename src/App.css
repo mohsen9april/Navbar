@@ -13,4 +13,56 @@
   position: sticky;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  /* padding: 15px;
+  margin: 10px; */
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  height: 90%;
+  justify-content: start;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.lines_icon {
+  display: flex;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.profile {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h3 {
+  font-size: 1rem;
+  margin: 10px 0px 10px 0px;
 }
