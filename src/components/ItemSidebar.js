@@ -15,6 +15,7 @@ const ItemSidebar = (props) => {
 
   return (
     <motion.div
+      className="item"
       whileHover={{
         backgroundColor: "rgba(255, 255, 255, 0.3)",
         boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
@@ -24,10 +25,9 @@ const ItemSidebar = (props) => {
         cursor: "pointer",
       }}
       transition={{
-        type: "none",
+        // type: "none",
         duration: 0.1,
       }}
-      className="item"
     >
       <motion.div className="icon">{props.icon}</motion.div>
       <motion.span variants={subheading}> {props.name} </motion.span>
